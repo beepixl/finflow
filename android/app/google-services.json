@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "129105788131",
+    "project_id": "fin-flow-xdoekl",
+    "storage_bucket": "fin-flow-xdoekl.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:129105788131:android:4d9b2624f33afce56919d6",
+        "android_client_info": {
+          "package_name": "com.beepixl.finflow"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDteZhKld6yx-JEPJ-HC2ycBbSy8fLprLQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
