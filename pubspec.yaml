@@ -31,6 +31,7 @@ dependencies:
   cloud_firestore_platform_interface: 6.2.3
   cloud_firestore_web: 3.12.3
   collection: 1.18.0
+  download:
   firebase_auth: 4.19.5
   firebase_auth_platform_interface: 7.2.6
   firebase_auth_web: 5.11.5
@@ -54,6 +55,8 @@ dependencies:
   google_sign_in_ios: 5.7.6
   google_sign_in_platform_interface: 2.4.2
   google_sign_in_web: 0.12.1
+  image_downloader_web:
+  image_gallery_saver:
   intl: 0.19.0
   json_path: 0.7.2
   page_transition: 2.1.0
@@ -65,6 +68,7 @@ dependencies:
   plugin_platform_interface: 2.1.8
   provider: 6.1.2
   rxdart: 0.27.7
+  screenshot:
   share_plus:
   shared_preferences: 2.2.2
   shared_preferences_android: 2.2.1

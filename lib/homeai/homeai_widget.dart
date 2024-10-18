@@ -5,6 +5,7 @@ import '/flutter_flow/flutter_flow_theme.dart';
 import '/flutter_flow/flutter_flow_util.dart';
 import '/flutter_flow/flutter_flow_widgets.dart';
 import '/custom_code/actions/index.dart' as actions;
+import '/custom_code/widgets/index.dart' as custom_widgets;
 import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'homeai_model.dart';
@@ -150,6 +151,37 @@ class _HomeaiWidgetState extends State<HomeaiWidget> {
               child: Column(
                 mainAxisSize: MainAxisSize.max,
                 children: [
+                  FFButtonWidget(
+                    onPressed: () {
+                      print('Button pressed ...');
+                    },
+                    text: 'View All Transactions',
+                    options: FFButtonOptions(
+                      width: MediaQuery.sizeOf(context).width * 1.0,
+                      height: 50.0,
+                      padding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      iconPadding:
+                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
+                      color: FlutterFlowTheme.of(context).primary,
+                      textStyle:
+                          FlutterFlowTheme.of(context).titleSmall.override(
+                                fontFamily: 'Inter',
+                                color: Colors.white,
+                                letterSpacing: 0.0,
+                              ),
+                      elevation: 0.0,
+                      borderRadius: BorderRadius.circular(25.0),
+                    ),
+                  ),
+                  SizedBox(
+                    width: MediaQuery.sizeOf(context).width * 1.0,
+                    height: 350.0,
+                    child: custom_widgets.CustomScreenshotCopy(
+                      width: MediaQuery.sizeOf(context).width * 1.0,
+                      height: 350.0,
+                    ),
+                  ),
                   Material(
                     color: Colors.transparent,
                     elevation: 8.0,
@@ -537,29 +569,6 @@ class _HomeaiWidgetState extends State<HomeaiWidget> {
                         ),
                       ),
                     ].divide(const SizedBox(height: 16.0)),
-                  ),
-                  FFButtonWidget(
-                    onPressed: () {
-                      print('Button pressed ...');
-                    },
-                    text: 'View All Transactions',
-                    options: FFButtonOptions(
-                      width: MediaQuery.sizeOf(context).width * 1.0,
-                      height: 50.0,
-                      padding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      iconPadding:
-                          const EdgeInsetsDirectional.fromSTEB(0.0, 0.0, 0.0, 0.0),
-                      color: FlutterFlowTheme.of(context).primary,
-                      textStyle:
-                          FlutterFlowTheme.of(context).titleSmall.override(
-                                fontFamily: 'Inter',
-                                color: Colors.white,
-                                letterSpacing: 0.0,
-                              ),
-                      elevation: 0.0,
-                      borderRadius: BorderRadius.circular(25.0),
-                    ),
                   ),
                 ].divide(const SizedBox(height: 24.0)),
               ),
